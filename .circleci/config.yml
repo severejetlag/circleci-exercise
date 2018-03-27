@@ -34,10 +34,10 @@ jobs:
 
       # run tests!
       - run:
-        name: Run tests
-        command:
-          cd users-api
-          ./gradlew test
+          name: Run tests
+          command:
+            cd users-api
+            ./gradlew test
   feature-tests:
       machine:
         services:
